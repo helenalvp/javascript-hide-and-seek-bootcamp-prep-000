@@ -15,6 +15,7 @@ function deepestChild() {
 
 for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML = (i + 1).toString();
+  querySelector(lis[i])
 }
-return lis[i].innerHTML;
+
 }
