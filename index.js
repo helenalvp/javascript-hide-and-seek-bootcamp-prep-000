@@ -18,4 +18,3 @@ for (let i = 0; i < lis.length; i++) {
 }
 return document.querySelector("ul.ranked-list li")
 }
-
