@@ -11,7 +11,7 @@ function nestedTarget(target){
 function deepestChild() {
   const lis = document
   .getElementById('app')
-  .querySelectorAll('ul.ranked-list li');
+  .querySelectorAll('div.grand-node div');
 
 for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML = (i + 1).toString();
